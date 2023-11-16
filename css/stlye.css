@@ -1,0 +1,70 @@
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+.cuerpo{
+    background-color: rgba(197, 201, 197, 0.781);
+}
+
+/** Aquí editamos el manú seleccionador de arriba **/
+
+.menu{
+    border-collapse: collapse;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding: 10px;
+    text-align: center;
+    border-bottom: solid black;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+
+.dos{
+    border-left: solid;
+}
+.tres{
+    border-left: solid;
+}
+
+.cuatro{
+    border-left: solid;
+}
+
+.cinco{
+    border-left: solid;
+}
+
+/**Esta sección la usaremos para que al pasar el ratón salga marcada la caja**/
+.uno:hover{
+    background-color: rgb(221, 221, 221);
+}
+.dos:hover{
+    background-color: rgb(221, 221, 221);
+}
+.tres:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+.cuatro:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+.cinco:hover{
+    background-color: rgb(221, 221, 221);
+}
+
+/**Aquí editamos el centro de la página**/
+
+.flex-container{
+    display: flex;
+    background-color: blue;
+}
+
+.flex-box{
+    background-color: lightgray;
+    margin: 10px;
+    padding: 20px;
+    
+}
